@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+
+body {
+  background-image: url(other_image/doodles.png);
+  min-height: 2000px;
+}
+/* preload */
+#preload {
+  background: #ffffff url(other_image/Hourglass.gif) no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin-top: -30px;
+  background-size: 10%;
+  z-index: 2;
+}
+/* akhir preload */
+
+/* Navigasi */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  font-family: "Caveat";
+  background-color: rgb(63, 210, 250);
+  box-shadow: 0px 2px 20px rgb(189, 189, 189);
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px orange;
+}
+.nav-item a {
+  font-size: 25px;
+  margin-right: 10px;
+}
+/* Akhir navigasi */
+
+/* carousel */
+.carousel {
+  padding-top: 100px;
+}
+.carousel-item {
+  position: relative;
+}
+.carousel-item img {
+  border-radius: 10px;
+  margin: 50px auto;
+  width: 1080px;
+  height: 100%;
+}
+.carousel-caption {
+  font-family: "Caveat";
+  margin-bottom: 20px;
+}
+.carousel-caption h5,
+.carousel-caption p {
+  text-shadow: 6px 6px 8px black;
+}
+.carousel button .control {
+  background-color: rgb(20, 110, 111);
+  border-radius: 2px;
+}
+/* akhir carousel */
+
+/* guru */
+#guru {
+  font-family: "Caveat";
+}
+#guru .title-guru {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px rgb(250, 205, 25);
+  color: aqua;
+}
+#guru .guru {
+  position: relative;
+  margin-bottom: 8px;
+}
+#guru img {
+  clip-path: circle();
+  width: 256px;
+}
+#guru .show_name {
+  width: 250px;
+  height: 250px;
+  line-height: 250px;
+  clip-path: circle();
+  background-color: rgba(30, 169, 255, 0);
+  color: wheat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-weight: 400;
+  font-size: 0;
+  transition: 0.3s;
+}
+#guru .show_name:hover {
+  font-size: 20px;
+  background-color: rgba(30, 169, 255, 50%);
+}
+/* akhir guru */
+
+/* murid */
+#murid .title-murid {
+  font-weight: 700;
+  margin-top: 40px;
+}
+#murid h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px rgb(250, 205, 25);
+  color: aqua;
+  font-family: "Caveat";
+}
+#murid .card {
+  border: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 240px;
+  height: 240px;
+  margin: 15px auto;
+}
+#murid .card img {
+  transition: 0.3s;
+}
+#murid .card-body {
+  font-family: "Caveat";
+  position: absolute;
+  color: aliceblue;
+  bottom: 0;
+  left: 0;
+  transform: translateY(5%);
+  text-shadow: 4px 4px 8px black;
+}
+#murid .card:hover img {
+  transform: scale(1.2);
+}
+/* akhir murid */

@@ -1,0 +1,161 @@
+@media only screen and (max-width: 1350px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 850px;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 800px;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #preload {
+    background-size: 20%;
+  }
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 700px;
+    height: 100%;
+  }
+  #guru .show_name {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+  }
+  #guru img {
+    width: 220px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 600px;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 520px;
+    height: 100%;
+  }
+  #murid .card {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 460px;
+    height: 100%;
+  }
+  #guru img {
+    width: 150px;
+  }
+  #guru .show_name {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+  }
+  #guru .show_name:hover {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 420px;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 380px;
+    height: 100%;
+  }
+  #murid .card {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 340px;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 320px;
+    height: 100%;
+  }
+  #guru img {
+    width: 120px;
+  }
+  #guru .show_name {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+  }
+  #guru .show_name:hover {
+    font-size: 12px;
+  }
+  #murid .card {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 300px;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 290px;
+    height: 100%;
+  }
+  #murid .card {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .carousel-item img {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 280px;
+    height: 100%;
+  }
+}
