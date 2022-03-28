@@ -104,6 +104,9 @@ body {
 /* akhir guru */
 
 /* murid */
+#murid {
+  margin-bottom: 100px;
+}
 #murid .title-murid {
   font-weight: 700;
   margin-top: 40px;
@@ -136,6 +139,14 @@ body {
   left: 0;
   transform: translateY(10%);
   text-shadow: 4px 4px 8px black;
+}
+#murid .nama-siswa {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+#murid .card-text {
+  margin-bottom: 0;
+  font-size: 18px;
 }
 #murid .birthday {
   display: none;
