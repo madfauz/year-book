@@ -64,7 +64,7 @@
 .profile .template-advice {
   color: black;
   font-family: "Amatic sc";
-  font-size: 24px;
+  font-size: 26px;
   margin-top: 4px;
 }
 .profile .sosmed-main {
@@ -92,3 +92,64 @@
   }
 }
 /* akhir profil murid */
+
+/* responsive profil murid */
+@media only screen and (max-width: 500px) {
+  .profile {
+    width: 350px;
+    margin-left: -175px;
+    padding: 10px;
+  }
+  .profile .image-student {
+    width: 250px;
+    transform: translateX(14%);
+  }
+  #close-button img {
+    width: 17px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .profile {
+    width: 300px;
+    margin-left: -150px;
+    padding: 10px;
+  }
+  .profile .image-student {
+    width: 240px;
+    transform: translateX(7%);
+  }
+  #close-button img {
+    width: 15px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .profile {
+    width: 280px;
+    margin-left: -140px;
+    padding: 10px;
+  }
+  .profile .image-student {
+    width: 220px;
+    transform: translateX(7%);
+  }
+  #close-button img {
+    width: 15px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .profile {
+    width: 260px;
+    margin-left: -130px;
+    padding: 10px;
+  }
+  .profile .image-student {
+    width: 210px;
+    transform: translateX(6%);
+  }
+  #close-button img {
+    width: 15px;
+  }
+}

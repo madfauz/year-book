@@ -13,6 +13,10 @@
     width: 800px;
     height: 100%;
   }
+  #murid .card {
+    width: 180px;
+    height: 180px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -33,6 +37,10 @@
   #guru img {
     width: 220px;
   }
+  #murid .card {
+    width: 150px;
+    height: 150px;
+  }
 }
 @media only screen and (max-width: 720px) {
   .carousel-item img {
@@ -50,8 +58,8 @@
     height: 100%;
   }
   #murid .card {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
   }
 }
 @media only screen and (max-width: 540px) {
@@ -72,6 +80,10 @@
   #guru .show_name:hover {
     font-size: 15px;
   }
+  #murid .card {
+    width: 135px;
+    height: 135px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -80,6 +92,10 @@
     margin: 50px auto;
     width: 420px;
     height: 100%;
+  }
+  #murid .card {
+    width: 114px;
+    height: 114px;
   }
 }
 
@@ -91,17 +107,8 @@
     height: 100%;
   }
   #murid .card {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-@media only screen and (max-width: 390px) {
-  .carousel-item img {
-    border-radius: 10px;
-    margin: 50px auto;
-    width: 340px;
-    height: 100%;
+    width: 106px;
+    height: 106px;
   }
 }
 
@@ -124,8 +131,8 @@
     font-size: 12px;
   }
   #murid .card {
-    width: 120px;
-    height: 120px;
+    width: 86px;
+    height: 86px;
   }
 }
 
@@ -135,6 +142,10 @@
     margin: 50px auto;
     width: 300px;
     height: 100%;
+  }
+  #murid .card {
+    width: 78px;
+    height: 78px;
   }
 }
 
@@ -146,8 +157,8 @@
     height: 100%;
   }
   #murid .card {
-    width: 100px;
-    height: 100px;
+    width: 76px;
+    height: 76px;
   }
 }
 
@@ -157,5 +168,9 @@
     margin: 50px auto;
     width: 280px;
     height: 100%;
+  }
+  #murid .card {
+    width: 110px;
+    height: 110px;
   }
 }
