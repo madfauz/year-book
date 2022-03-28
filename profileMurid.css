@@ -1,0 +1,94 @@
+/* profil murid */
+.invisible-close {
+  display: none;
+  width: 100%;
+  height: 700px;
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -50%;
+  z-index: 2;
+}
+.profile {
+  display: none;
+  width: 400px;
+  height: auto;
+  background-color: white;
+  border: 5px solid rgb(247, 160, 28);
+  box-shadow: 0 0 10px rgb(164, 164, 164);
+  border-radius: 8px;
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -200px;
+  transition: 0.3s;
+  animation-name: flip;
+  animation-duration: 0.5s;
+  padding: 20px;
+}
+.profile .image-student {
+  width: 250px;
+  transform: translateX(22%);
+  border-radius: 8px;
+  margin-top: 4px;
+}
+.profile h4 {
+  color: black;
+  margin-top: 4px;
+  font-family: "Amatic sc";
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+.profile h5 {
+  color: black;
+  font-family: "Amatic sc";
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: -10px;
+  text-align: center;
+}
+.profile .template-birthday {
+  color: black;
+  font-family: "Amatic sc";
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -10px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.profile .template-advice {
+  color: black;
+  font-family: "Amatic sc";
+  font-size: 24px;
+  margin-top: 4px;
+}
+.profile .sosmed-main {
+  float: right;
+  margin-bottom: 0;
+}
+.profile .template-sosmed-siswa {
+  display: inline;
+  width: 20px;
+  margin-left: 5px;
+}
+#close-button {
+  cursor: pointer;
+}
+#close-button img {
+  width: 20px;
+}
+@keyframes flip {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+/* akhir profil murid */
