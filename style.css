@@ -145,8 +145,12 @@ body {
   margin-bottom: 0px;
 }
 #murid .card-text {
+  width: 206px;
   margin-bottom: 0;
   font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 #murid .birthday {
   display: none;

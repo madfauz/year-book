@@ -19,10 +19,13 @@
   }
   #murid .nama-siswa {
     margin-bottom: 0px;
+    margin-left: -6px;
   }
   #murid .card-text {
+    width: 150px;
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 16px;
+    margin-left: -6px;
   }
 }
 
@@ -50,10 +53,14 @@
   }
   #murid .nama-siswa {
     margin-bottom: 0px;
+    margin-left: -8px;
+    font-size: 22px;
   }
   #murid .card-text {
+    width: 130px;
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 14px;
+    margin-left: -8px;
   }
 }
 @media only screen and (max-width: 720px) {
@@ -101,10 +108,13 @@
   #murid .nama-siswa {
     font-size: 22px;
     margin-bottom: 0px;
+    margin-left: -8px;
   }
   #murid .card-text {
+    width: 110px;
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 14px;
+    margin-left: -8px;
   }
 }
 
@@ -120,12 +130,15 @@
     height: 114px;
   }
   #murid .nama-siswa {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 0px;
+    margin-left: -6px;
   }
   #murid .card-text {
-    font-size: 6px;
+    width: 90px;
+    font-size: 14px;
     margin-bottom: 0px;
+    margin-left: -6px;
   }
 }
 
@@ -139,6 +152,17 @@
   #murid .card {
     width: 106px;
     height: 106px;
+  }
+  #murid .nama-siswa {
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-left: -8px;
+  }
+  #murid .card-text {
+    width: 85px;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-left: -8px;
   }
 }
 
@@ -164,6 +188,15 @@
     width: 86px;
     height: 86px;
   }
+  #murid .nama-siswa {
+    font-size: 18px;
+    margin-bottom: -4px;
+  }
+  #murid .card-text {
+    width: 70px;
+    margin-bottom: -6px;
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 330px) {
@@ -176,6 +209,15 @@
   #murid .card {
     width: 78px;
     height: 78px;
+  }
+  #murid .nama-siswa {
+    font-size: 14px;
+    margin-bottom: -4px;
+  }
+  #murid .card-text {
+    width: 60px;
+    margin-bottom: -6px;
+    font-size: 10px;
   }
 }
 
