@@ -53,9 +53,16 @@ body {
   font-family: "Caveat";
   margin-bottom: 20px;
 }
-.carousel-caption h5,
+.carousel-caption h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: -10px;
+  text-shadow: 4px 4px 8px black;
+}
 .carousel-caption p {
-  text-shadow: 6px 6px 8px black;
+  font-weight: 400;
+  font-size: 35px;
+  text-shadow: 4px 4px 8px black;
 }
 .carousel button .control {
   background-color: rgb(20, 110, 111);

@@ -2,7 +2,7 @@
 const load = document.getElementById("preload");
 window.setTimeout(function () {
   load.style.display = "none";
-}, 1500);
+}, 2500);
 
 //show profile
 const student = document.getElementsByClassName("card");
