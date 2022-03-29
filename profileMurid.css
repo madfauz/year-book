@@ -39,33 +39,34 @@
 .profile h4 {
   color: black;
   margin-top: 4px;
-  font-family: "Amatic sc";
-  font-weight: 700;
-  font-size: 40px;
+  font-family: "Mali";
+  font-weight: 600;
+  font-size: 34px;
   text-align: center;
 }
 .profile h5 {
   color: black;
-  font-family: "Amatic sc";
-  font-size: 28px;
+  font-family: "Mali";
+  font-size: 18px;
   font-weight: 400;
   margin-top: -10px;
   text-align: center;
 }
 .profile .template-birthday {
   color: black;
-  font-family: "Amatic sc";
-  font-size: 20px;
-  font-weight: 400;
+  font-family: "Mali";
+  font-size: 16px;
+  font-weight: 300;
   margin-top: -10px;
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px dotted black;
 }
 .profile .template-advice {
   color: black;
-  font-family: "Amatic sc";
-  font-size: 26px;
+  font-family: "Mali";
+  font-size: 20px;
   margin-top: 4px;
+  font-weight: 400;
 }
 .profile .sosmed-main {
   float: right;

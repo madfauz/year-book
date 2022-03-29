@@ -1,0 +1,7 @@
+@media only screen and (max-width: 770px) {
+  .navbar {
+    width: 230px;
+    height: 100%;
+    background-color: white;
+  }
+}
