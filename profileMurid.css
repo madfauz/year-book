@@ -20,7 +20,7 @@
   box-shadow: 0 0 10px rgb(164, 164, 164);
   border-radius: 8px;
   position: fixed;
-  z-index: 2;
+  z-index: 4;
   top: 50%;
   left: 50%;
   margin-top: -300px;

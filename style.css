@@ -2,9 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-body {
-  background-image: url(other_image/doodles.png);
-}
 /* preload */
 #preload {
   background: #ffffff url(other_image/Hourglass.gif) no-repeat center center;
@@ -21,7 +18,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
   font-family: "Caveat";
   background-color: rgb(63, 210, 250);
   box-shadow: 0px 2px 20px rgb(189, 189, 189);
@@ -39,7 +36,10 @@ body {
 
 /* carousel */
 .carousel {
+  background-image: url(other_image/doodles.png);
+  z-index: 2;
   padding-top: 100px;
+  position: relative;
 }
 .carousel-item {
   position: relative;
@@ -71,8 +71,44 @@ body {
 }
 /* akhir carousel */
 
+/* detail sekolah */
+section.detail-sekolah {
+  height: 260px;
+  position: relative;
+  background: blue;
+}
+section.detail-sekolah .col {
+  text-align: center;
+  transform: translateY(90px);
+  font-family: "Mali";
+  z-index: 2;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+section.detail-sekolah h3 {
+  font-size: 38px;
+  font-weight: 700;
+}
+section.detail-sekolah h4 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.image-scroll {
+  height: 900px;
+  background-image: url(other_image/scroll_bg4.jpg);
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 150%;
+  z-index: 1;
+  top: 0;
+}
+/* akhir detail sekolah */
+
 /* guru */
 #guru {
+  background-image: url(other_image/doodles.png);
+  position: relative;
+  z-index: 2;
   font-family: "Caveat";
 }
 #guru .title-guru {
@@ -113,7 +149,10 @@ body {
 
 /* murid */
 #murid {
-  margin-bottom: 100px;
+  height: 800px;
+  position: relative;
+  background-image: url(other_image/doodles.png);
+  z-index: 2;
 }
 #murid .title-murid {
   font-weight: 700;
@@ -178,6 +217,7 @@ body {
 /* footer */
 footer {
   position: relative;
+  z-index: 2;
   bottom: 0;
   margin-bottom: -30px;
   width: 100%;

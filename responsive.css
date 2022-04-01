@@ -5,6 +5,18 @@
     width: 850px;
     height: 100%;
   }
+  section.detail-sekolah {
+    height: 200px;
+  }
+  section.detail-sekolah .col {
+    transform: translateY(50px);
+  }
+  section.detail-sekolah h3 {
+    font-size: 34px;
+  }
+  section.detail-sekolah h4 {
+    font-size: 17px;
+  }
 }
 @media only screen and (max-width: 1100px) {
   .carousel-item img {
@@ -12,6 +24,18 @@
     margin: 50px auto;
     width: 800px;
     height: 100%;
+  }
+  section.detail-sekolah {
+    height: 180px;
+  }
+  section.detail-sekolah .col {
+    transform: translateY(65px);
+  }
+  section.detail-sekolah h3 {
+    font-size: 24px;
+  }
+  section.detail-sekolah h4 {
+    font-size: 12px;
   }
   #murid .card {
     width: 180px;
@@ -38,6 +62,18 @@
     margin: 50px auto;
     width: 700px;
     height: 100%;
+  }
+  section.detail-sekolah {
+    height: 150px;
+  }
+  section.detail-sekolah .col {
+    transform: translateY(40px);
+  }
+  section.detail-sekolah h3 {
+    font-size: 22px;
+  }
+  section.detail-sekolah h4 {
+    font-size: 11px;
   }
   #guru .show_name {
     width: 200px;
@@ -77,6 +113,18 @@
   .carousel-caption p {
     font-size: 25px;
   }
+  section.detail-sekolah {
+    height: 120px;
+  }
+  section.detail-sekolah .col {
+    transform: translateY(30px);
+  }
+  section.detail-sekolah h3 {
+    font-size: 22px;
+  }
+  section.detail-sekolah h4 {
+    font-size: 11px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .carousel-item img {
@@ -92,6 +140,28 @@
   .carousel-caption p {
     font-size: 25px;
     margin-bottom: -2px;
+  }
+  section.detail-sekolah {
+    height: 200px;
+  }
+  section.detail-sekolah .row {
+    background-color: brown;
+    width: 380px;
+    height: 150px;
+    margin: 10px auto;
+  }
+  section.detail-sekolah .col {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 4px 10px 10px 10px;
+    transform: translateY(20px);
+  }
+  section.detail-sekolah h3 {
+    font-size: 24px;
+  }
+  section.detail-sekolah h4 {
+    font-size: 12px;
   }
   #murid .card {
     width: 150px;
@@ -147,6 +217,28 @@
   .carousel-caption p {
     font-size: 22px;
     margin-bottom: -2px;
+  }
+  section.detail-sekolah {
+    height: 200px;
+  }
+  section.detail-sekolah .row {
+    background-color: brown;
+    width: 340px;
+    height: 150px;
+    margin: 10px auto;
+  }
+  section.detail-sekolah .col {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 4px 10px 10px 10px;
+    transform: translateY(20px);
+  }
+  section.detail-sekolah h3 {
+    font-size: 20px;
+  }
+  section.detail-sekolah h4 {
+    font-size: 10px;
   }
   #murid .card {
     width: 114px;
@@ -212,6 +304,12 @@
     font-size: 18px;
     margin-bottom: -2px;
   }
+  section.detail-sekolah .row {
+    background-color: brown;
+    width: 300px;
+    height: 150px;
+    margin: 10px auto;
+  }
   #guru img {
     width: 120px;
   }
@@ -252,6 +350,28 @@
   .carousel-caption p {
     font-size: 16px;
     margin-bottom: -2px;
+  }
+  section.detail-sekolah {
+    height: 140px;
+  }
+  section.detail-sekolah .row {
+    background-color: brown;
+    width: 280px;
+    height: 110px;
+    margin: 20px auto;
+  }
+  section.detail-sekolah .col {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: -10px 6px 2px 6px;
+    transform: translateY(20px);
+  }
+  section.detail-sekolah h3 {
+    font-size: 14px;
+  }
+  section.detail-sekolah h4 {
+    font-size: 8px;
   }
   #murid .card {
     width: 78px;
@@ -298,6 +418,28 @@
   .carousel-caption p {
     font-size: 14px;
     margin-bottom: -2px;
+  }
+  section.detail-sekolah {
+    height: 110px;
+  }
+  section.detail-sekolah .row {
+    background-color: brown;
+    width: 260px;
+    height: 72px;
+    margin: 6px auto;
+  }
+  section.detail-sekolah .col {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 8px 4px 8px 4px;
+    transform: translateY(2px);
+  }
+  section.detail-sekolah h3 {
+    font-size: 10px;
+  }
+  section.detail-sekolah h4 {
+    font-size: 8px;
   }
   #murid .card {
     width: 110px;
