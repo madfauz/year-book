@@ -17,6 +17,12 @@
   section.detail-sekolah h4 {
     font-size: 17px;
   }
+  #guru {
+    height: 800px;
+  }
+  #murid {
+    height: 1000px;
+  }
 }
 @media only screen and (max-width: 1100px) {
   .carousel-item img {
@@ -37,6 +43,12 @@
   section.detail-sekolah h4 {
     font-size: 12px;
   }
+  #guru {
+    height: 720px;
+  }
+  #murid {
+    height: 680px;
+  }
   #murid .card {
     width: 180px;
     height: 180px;
@@ -50,6 +62,11 @@
     margin-bottom: 0;
     font-size: 16px;
     margin-left: -6px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #murid {
+    height: 840px;
   }
 }
 
@@ -83,6 +100,9 @@
   #guru img {
     width: 220px;
   }
+  #murid {
+    height: 620px;
+  }
   #murid .card {
     width: 150px;
     height: 150px;
@@ -97,6 +117,11 @@
     margin-bottom: 0;
     font-size: 14px;
     margin-left: -8px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  #murid {
+    height: 760px;
   }
 }
 @media only screen and (max-width: 720px) {
@@ -175,6 +200,9 @@
     width: 460px;
     height: 100%;
   }
+  #guru {
+    height: 500px;
+  }
   #guru img {
     width: 150px;
   }
@@ -185,6 +213,9 @@
   }
   #guru .show_name:hover {
     font-size: 15px;
+  }
+  #murid {
+    height: 700px;
   }
   #murid .card {
     width: 135px;
@@ -240,6 +271,9 @@
   section.detail-sekolah h4 {
     font-size: 10px;
   }
+  #murid {
+    height: 660px;
+  }
   #murid .card {
     width: 114px;
     height: 114px;
@@ -271,6 +305,9 @@
   .carousel-caption p {
     font-size: 20px;
     margin-bottom: -2px;
+  }
+  #murid {
+    height: 620px;
   }
   #murid .card {
     width: 106px;
@@ -320,6 +357,9 @@
   }
   #guru .show_name:hover {
     font-size: 12px;
+  }
+  #murid {
+    height: 560px;
   }
   #murid .card {
     width: 86px;
@@ -404,7 +444,7 @@
   }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 301px) {
   .carousel-item img {
     border-radius: 10px;
     margin: 50px auto;
@@ -441,8 +481,23 @@
   section.detail-sekolah h4 {
     font-size: 8px;
   }
+  #murid {
+    height: 800px;
+  }
   #murid .card {
     width: 110px;
     height: 110px;
+  }
+  footer .text-muted {
+    font-size: 8px;
+  }
+  footer img {
+    width: 10px;
+  }
+}
+
+@media only screen and (max-width: 287px) {
+  #guru {
+    height: 700px;
   }
 }
