@@ -36,7 +36,7 @@
 
 /* carousel */
 .carousel {
-  background-color: white;
+  background-image: url(other_image/doodles.png);
   z-index: 2;
   padding-top: 100px;
   position: relative;
@@ -48,7 +48,7 @@
   border-radius: 10px;
   margin: 50px auto;
   width: 1080px;
-  height: 100%;
+  height: 500px;
 }
 .carousel-caption {
   font-family: "Caveat";
@@ -73,30 +73,21 @@
 
 /* detail sekolah */
 section.detail-sekolah {
-  height: 260px;
+  height: 800px;
   position: relative;
-  background: blue;
 }
-section.detail-sekolah .col {
-  text-align: center;
-  transform: translateY(90px);
-  font-family: "Mali";
+section.detail-sekolah video {
+  position: absolute;
   z-index: 2;
-  color: rgb(255, 255, 255);
-  position: relative;
-}
-section.detail-sekolah h3 {
-  font-size: 38px;
-  font-weight: 700;
-}
-section.detail-sekolah h4 {
-  font-size: 22px;
-  font-weight: 400;
+  width: 1000px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
 }
 .image-scroll {
-  height: 900px;
-  background-image: url(other_image/scroll_bg4.jpg);
-  background-repeat: no-repeat;
+  height: 1200px;
+  background-image: url(other_image/doodles2.png);
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -106,7 +97,7 @@ section.detail-sekolah h4 {
 
 /* guru */
 #guru {
-  background-color: white;
+  background-image: url(other_image/doodles.png);
   position: relative;
   z-index: 2;
   font-family: "Caveat";
@@ -150,8 +141,7 @@ section.detail-sekolah h4 {
 
 /* murid */
 #murid {
-  background-color: rgb(250, 232, 255);
-  border: 1px solid rgb(250, 232, 255);
+  background-image: url(other_image/doodles.png);
   position: relative;
   z-index: 2;
   height: 800px;
@@ -164,7 +154,7 @@ section.detail-sekolah h4 {
   font-size: 50px;
   font-weight: 700;
   text-shadow: 2px 2px 2px rgb(250, 149, 25);
-  color: rgb(255, 255, 255);
+  color: rgb(19, 255, 223);
   font-family: "Caveat";
 }
 #murid .card {
