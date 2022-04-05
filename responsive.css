@@ -201,8 +201,8 @@
   .carousel-item img {
     border-radius: 10px;
     margin: 50px auto;
-    width: 420px;
-    height: 190px;
+    width: 410px;
+    height: 180px;
   }
   .carousel-caption h1 {
     font-size: 26px;
@@ -216,7 +216,7 @@
     height: 320px;
   }
   section.detail-sekolah video {
-    width: 400px;
+    width: 390px;
   }
   #murid {
     height: 660px;
@@ -242,7 +242,7 @@
   .carousel-item img {
     border-radius: 10px;
     margin: 50px auto;
-    width: 380px;
+    width: 360px;
     height: 170px;
   }
   .carousel-caption h1 {
@@ -254,10 +254,10 @@
     margin-bottom: -2px;
   }
   section.detail-sekolah {
-    height: 280px;
+    height: 260px;
   }
   section.detail-sekolah video {
-    width: 380px;
+    width: 340px;
   }
   #murid {
     height: 620px;

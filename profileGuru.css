@@ -1,0 +1,32 @@
+/* profil murid */
+.invisible-close {
+  display: none;
+  width: 100%;
+  height: 700px;
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -50%;
+  z-index: 2;
+}
+.profile-guru {
+  display: none;
+  width: 400px;
+  height: auto;
+  background-color: white;
+  border: 5px solid rgb(247, 160, 28);
+  box-shadow: 0 0 10px rgb(164, 164, 164);
+  border-radius: 8px;
+  position: fixed;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  margin-top: -260px;
+  margin-left: -200px;
+  transition: 0.3s;
+  animation-name: flip;
+  animation-duration: 0.5s;
+  padding: 20px;
+}

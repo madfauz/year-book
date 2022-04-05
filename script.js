@@ -4,7 +4,10 @@ window.setTimeout(function () {
   load.style.display = "none";
 }, 500);
 
-//show profile
+// profile guru
+// const guru = document.getElementsByClassName("guru");
+
+// profile siswa
 const student = document.getElementsByClassName("card");
 const studentImage = document.getElementsByClassName("card-img-top");
 const namaSiswa = document.getElementsByClassName("nama-siswa");
