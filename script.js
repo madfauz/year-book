@@ -28,6 +28,17 @@ const elementAdvice = document.getElementsByClassName("template-advice")[0];
 const elementSiswaIg = document.getElementsByClassName("template-siswa-ig")[0];
 const elementSiswaWa = document.getElementsByClassName("template-siswa-wa")[0];
 
+const selectSiswa = document.getElementById("select-siswa");
+
+let arraySiswa = [];
+for (let siswa = 0; siswa < namaSiswa.length; siswa++) {
+  arraySiswa.push(namaSiswa[siswa].innerHTML);
+  // for (let select = 0; select < selectSiswa.length; select++){
+
+  // }
+}
+console.log(arraySiswa.sort());
+
 for (let person = 0; person < student.length; person++) {
   student[person].addEventListener("click", function () {
     elementStudentImage.src = studentImage[person].src;

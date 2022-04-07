@@ -71,15 +71,53 @@
 }
 /* akhir carousel */
 
+/* profil sekolah */
+
+#profil-sekolah {
+  padding: 50px 0px 80px 0px;
+  position: relative;
+  z-index: 2;
+  background-image: url(other_image/doodles.png);
+  height: auto;
+}
+#profil-sekolah .foto-sekolah {
+  width: 460px;
+  border-radius: 10px;
+  overflow: hidden;
+  transform: translateY(12%);
+}
+#profil-sekolah img {
+  width: 460px;
+}
+#profil-sekolah h4 {
+  font-family: "Mali";
+  font-weight: 700;
+  font: 28px;
+  color: aqua;
+  text-shadow: 2px 2px 2px rgb(250, 205, 25);
+  transform: translateY(70%);
+}
+#profil-sekolah p {
+  line-height: 18px;
+  line-break: loose;
+  font-family: "Mali";
+  font-size: 12px;
+  font-weight: 300;
+  transform: translateY(12%);
+  text-shadow: 0px 0px 10px rgb(121, 121, 121);
+}
+
+/* akhir profil sekolah */
+
 /* detail sekolah */
 section.detail-sekolah {
-  height: 800px;
+  height: 700px;
   position: relative;
 }
 section.detail-sekolah video {
   position: absolute;
   z-index: 2;
-  width: 1000px;
+  width: 980px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -89,6 +127,7 @@ section.detail-sekolah video {
   height: 1200px;
   background-image: url(other_image/doodles2.png);
   position: fixed;
+  background-attachment: fixed;
   width: 100%;
   z-index: 1;
   top: 0;
@@ -101,7 +140,7 @@ section.detail-sekolah video {
   position: relative;
   z-index: 2;
   font-family: "Caveat";
-  height: 500px;
+  height: auto;
 }
 #guru .title-guru {
   font-size: 50px;
@@ -140,11 +179,49 @@ section.detail-sekolah video {
 /* akhir guru */
 
 /* murid */
+.select-siswa {
+  margin-top: 10px;
+  position: relative;
+  width: 8rem;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.select-siswa::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  content: "\25BC";
+  color: rgb(255, 255, 255);
+  background-color: rgb(59, 59, 59);
+  width: 1.8em;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+.select-siswa::after:hover {
+  background-color: aqua;
+}
+#select-siswa {
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  background-color: gray;
+  border: 1px solid gray;
+  padding-left: 4px;
+  width: 8rem;
+  font-family: "Caveat";
+  appearance: none;
+  font-size: 1;
+}
+#select-siswa option {
+  font-size: 1em;
+}
 #murid {
   background-image: url(other_image/doodles.png);
   position: relative;
   z-index: 2;
-  height: 800px;
+  height: auto;
 }
 #murid .title-murid {
   font-weight: 700;

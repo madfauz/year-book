@@ -59,6 +59,7 @@
   font-weight: 300;
   margin-top: -10px;
   text-align: center;
+  padding-bottom: 10px;
   border-bottom: 1px dotted black;
 }
 .profile .template-advice {
