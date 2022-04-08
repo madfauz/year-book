@@ -65,24 +65,27 @@
   #profil-sekolah {
     justify-content: center;
     align-items: center;
-    padding: 10px 0px 80px 0px;
-    display: grid;
+    padding: 10px 0px 40px 0px;
+  }
+  #profil-sekolah .row {
+    margin: 0px auto;
   }
   #profil-sekolah .foto-sekolah {
     width: 500px;
-    margin: auto;
+    display: flex;
+    margin: 0 auto;
   }
   #profil-sekolah img {
     width: 500px;
   }
   #profil-sekolah h4 {
-    margin-top: 22px;
+    margin-top: 32px;
     text-align: center;
     font: 24px;
   }
   #profil-sekolah p {
     line-height: 24px;
-    padding: 0px 24px;
+    padding: 0px 30px;
     text-align: center;
     font-size: 16px;
   }
@@ -97,19 +100,22 @@
     width: 700px;
     height: 320px;
   }
+  #profil-sekolah {
+    padding: 10px 0px 60px 0px;
+  }
   #profil-sekolah .foto-sekolah {
-    width: 500px;
-    margin: auto;
+    width: 460px;
   }
   #profil-sekolah img {
-    width: 500px;
+    width: 460px;
   }
   #profil-sekolah h4 {
     font-size: 26px;
     margin-top: 38px;
   }
   #profil-sekolah p {
-    font-size: 16px;
+    margin-top: -10px;
+    font-size: 14px;
   }
   section.detail-sekolah {
     height: 500px;
@@ -217,7 +223,7 @@
     height: 220px;
   }
   #profil-sekolah {
-    padding: 10px 0px 80px 0px;
+    padding: 10px 0px 90px 0px;
   }
   #profil-sekolah .foto-sekolah {
     border-radius: 6px;
@@ -234,7 +240,7 @@
   }
   #profil-sekolah p {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: -30px;
   }
   section.detail-sekolah {
@@ -286,6 +292,12 @@
     font-size: 22px;
     margin-bottom: -2px;
   }
+  #profil-sekolah .foto-sekolah {
+    width: 340px;
+  }
+  #profil-sekolah img {
+    width: 340px;
+  }
   section.detail-sekolah {
     height: 320px;
   }
@@ -334,11 +346,9 @@
   }
   #profil-sekolah h4 {
     margin-top: 24px;
-    text-align: center;
     font-size: 22px;
   }
   #profil-sekolah p {
-    text-align: center;
     font-size: 12px;
     margin-top: -30px;
     padding: 0px 2px;
@@ -380,6 +390,16 @@
   .carousel-caption p {
     font-size: 18px;
     margin-bottom: -2px;
+  }
+  #profil-sekolah {
+    padding: 10px 0px 100px 0px;
+  }
+  #profil-sekolah .foto-sekolah {
+    border-radius: 6px;
+    width: 250px;
+  }
+  #profil-sekolah img {
+    width: 250px;
   }
   section.detail-sekolah {
     height: 240px;
@@ -428,6 +448,21 @@
     font-size: 16px;
     margin-bottom: -2px;
   }
+  #profil-sekolah {
+    padding: 10px 0px 110px 0px;
+  }
+  #profil-sekolah .foto-sekolah {
+    border-radius: 6px;
+    width: 240px;
+    margin: auto;
+  }
+  #profil-sekolah img {
+    width: 240px;
+  }
+  #profil-sekolah p {
+    margin-top: -40px;
+    font-size: 10px;
+  }
   section.detail-sekolah {
     height: 220px;
   }
@@ -455,6 +490,14 @@
     margin: 50px auto;
     width: 280px;
     height: 126px;
+  }
+  #profil-sekolah .foto-sekolah {
+    border-radius: 6px;
+    width: 220px;
+    margin: auto;
+  }
+  #profil-sekolah img {
+    width: 220px;
   }
   section.detail-sekolah {
     height: 200px;
@@ -485,6 +528,17 @@
   .carousel-caption p {
     font-size: 14px;
     margin-bottom: -2px;
+  }
+  #profil-sekolah .foto-sekolah {
+    border-radius: 6px;
+    width: 200px;
+    margin: auto;
+  }
+  #profil-sekolah img {
+    width: 200px;
+  }
+  #profil-sekolah h4 {
+    font-size: 16px;
   }
   section.detail-sekolah {
     height: 200px;

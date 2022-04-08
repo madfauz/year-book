@@ -2,7 +2,7 @@
 const load = document.getElementById("preload");
 window.setTimeout(function () {
   load.style.display = "none";
-}, 500);
+}, 2500);
 
 // profile guru
 // const guru = document.getElementsByClassName("guru");
