@@ -1,8 +1,11 @@
 // preload
 const load = document.getElementById("preload");
-window.setTimeout(function () {
+// window.setTimeout(function () {
+//   load.style.display = "none";
+// }, 2500);
+window.addEventListener("load", function () {
   load.style.display = "none";
-}, 2500);
+});
 
 // profile guru
 // const guru = document.getElementsByClassName("guru");
