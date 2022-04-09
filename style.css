@@ -6,6 +6,9 @@
 #preload {
   background: #ffffff url(other_image/Hourglass.gif) no-repeat center center;
   position: fixed;
+  display: flex;
+  justify-items: center;
+  align-self: center;
   width: 100%;
   height: 100%;
   background-size: 10%;
@@ -79,6 +82,7 @@
   z-index: 2;
   background-image: url(other_image/doodles.png);
   height: auto;
+  display: none;
 }
 #profil-sekolah .foto-sekolah {
   width: 460px;
@@ -222,6 +226,7 @@ section.detail-sekolah video {
   position: relative;
   z-index: 2;
   height: auto;
+  padding-bottom: 16px;
 }
 #murid .title-murid {
   font-weight: 700;

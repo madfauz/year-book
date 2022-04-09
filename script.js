@@ -1,11 +1,13 @@
 // preload
+const profilSekolah = document.getElementById("profil-sekolah");
 const load = document.getElementById("preload");
-// window.setTimeout(function () {
-//   load.style.display = "none";
-// }, 2500);
-window.addEventListener("load", function () {
+window.setTimeout(function () {
   load.style.display = "none";
-});
+  profilSekolah.style.display = "block";
+}, 3000);
+// window.addEventListener("load", function () {
+//   load.style.display = "none";
+// });
 
 // profile guru
 // const guru = document.getElementsByClassName("guru");
