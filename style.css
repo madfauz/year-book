@@ -22,14 +22,14 @@
   top: 0;
   width: 100%;
   z-index: 3;
+  height: 80px;
   font-family: "Caveat";
   background-color: rgb(63, 210, 250);
   box-shadow: 0px 2px 20px rgb(189, 189, 189);
+  box-sizing: border-box;
 }
-.navbar-brand {
-  font-weight: 700;
-  font-size: 24px;
-  text-shadow: 2px 2px 2px orange;
+.navbar .main-logo img {
+  width: 140px;
 }
 .nav-item a {
   font-size: 25px;
@@ -81,7 +81,7 @@
 /* profil sekolah */
 
 #profil-sekolah {
-  padding: 50px 0px 80px 0px;
+  padding: 70px 0px 80px 0px;
   position: relative;
   z-index: 2;
   background-image: url(other_image/doodles.png);
@@ -175,26 +175,7 @@ section.detail-sekolah video {
   clip-path: circle();
   width: 256px;
 }
-#guru .show_name {
-  width: 250px;
-  height: 250px;
-  line-height: 250px;
-  clip-path: circle();
-  background-color: rgba(30, 169, 255, 0);
-  color: wheat;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  font-weight: 400;
-  font-size: 0;
-  transition: 0.3s;
-}
-#guru .show_name:hover {
-  font-size: 20px;
-  background-color: rgba(30, 169, 255, 50%);
-}
+
 /* akhir guru */
 
 /* murid */
@@ -204,6 +185,7 @@ section.detail-sekolah video {
   width: 8rem;
   overflow: hidden;
   border-radius: 4px;
+  padding-bottom: 10px;
 }
 .select-siswa::after {
   position: absolute;

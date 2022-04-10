@@ -160,6 +160,13 @@
   }
 }
 @media only screen and (max-width: 767px) {
+  .navbar {
+    height: 80px;
+    align-content: center;
+  }
+  .navbar .main-logo img {
+    width: 140px;
+  }
   .offcanvas li {
     border-bottom: 1px dashed rgb(187, 187, 187);
   }
