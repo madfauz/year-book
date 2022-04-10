@@ -89,6 +89,12 @@
     text-align: center;
     font-size: 16px;
   }
+  section.detail-sekolah h4 {
+    font-size: 3em;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -260%);
+  }
 }
 @media only screen and (max-width: 850px) {
   #preload {
@@ -120,8 +126,14 @@
   section.detail-sekolah {
     height: 500px;
   }
+  section.detail-sekolah h4 {
+    font-size: 3em;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -240%);
+  }
   section.detail-sekolah video {
-    width: 700px;
+    width: 680px;
   }
   #guru .show_name {
     width: 200px;
@@ -147,6 +159,11 @@
     margin-left: -8px;
   }
 }
+@media only screen and (max-width: 767px) {
+  .offcanvas li {
+    border-bottom: 1px dashed rgb(187, 187, 187);
+  }
+}
 @media only screen and (max-width: 720px) {
   .carousel-item img {
     border-radius: 10px;
@@ -162,10 +179,16 @@
     font-size: 25px;
   }
   section.detail-sekolah {
-    height: 400px;
+    height: 380px;
+  }
+  section.detail-sekolah h4 {
+    font-size: 2.6em;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -230%);
   }
   section.detail-sekolah video {
-    width: 600px;
+    width: 560px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -207,6 +230,12 @@
   section.detail-sekolah {
     height: 360px;
   }
+  section.detail-sekolah h4 {
+    font-size: 2.2em;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -230%);
+  }
   section.detail-sekolah video {
     width: 500px;
   }
@@ -246,8 +275,14 @@
   section.detail-sekolah {
     height: 320px;
   }
+  section.detail-sekolah h4 {
+    font-size: 2em;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -220%);
+  }
   section.detail-sekolah video {
-    width: 420px;
+    width: 410px;
   }
   #guru img {
     width: 150px;
@@ -356,8 +391,14 @@
   section.detail-sekolah {
     height: 260px;
   }
+  section.detail-sekolah h4 {
+    font-size: 2em;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -180%);
+  }
   section.detail-sekolah video {
-    width: 340px;
+    width: 320px;
   }
   #murid .card {
     width: 106px;
@@ -404,8 +445,15 @@
   section.detail-sekolah {
     height: 240px;
   }
+  section.detail-sekolah h4 {
+    font-size: 1.6em;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -184%);
+  }
   section.detail-sekolah video {
-    width: 320px;
+    width: 290px;
+    margin-top: 4px;
   }
   #guru img {
     width: 120px;
@@ -501,6 +549,12 @@
   }
   section.detail-sekolah {
     height: 200px;
+  }
+  section.detail-sekolah h4 {
+    font-size: 1.4em;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -184%);
   }
   section.detail-sekolah video {
     width: 240px;

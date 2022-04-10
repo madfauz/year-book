@@ -35,6 +35,10 @@
   font-size: 25px;
   margin-right: 10px;
 }
+.offcanvas {
+  width: 80%;
+}
+
 /* Akhir navigasi */
 
 /* carousel */
@@ -118,13 +122,24 @@ section.detail-sekolah {
   height: 700px;
   position: relative;
 }
+section.detail-sekolah h4 {
+  position: absolute;
+  z-index: 2;
+  font-size: 3em;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -280%);
+  font-family: "Caveat";
+  text-shadow: 2px 2px 2px rgb(190, 47, 143);
+  color: aqua;
+}
 section.detail-sekolah video {
   position: absolute;
   z-index: 2;
-  width: 980px;
+  width: 920px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -44%);
   border-radius: 8px;
 }
 .image-scroll {
@@ -226,7 +241,6 @@ section.detail-sekolah video {
   position: relative;
   z-index: 2;
   height: auto;
-  padding-bottom: 16px;
 }
 #murid .title-murid {
   font-weight: 700;
