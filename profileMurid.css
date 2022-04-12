@@ -68,6 +68,8 @@
   font-size: 20px;
   margin-top: 4px;
   font-weight: 400;
+  max-height: 80px;
+  overflow-y: scroll;
 }
 .profile .sosmed-main {
   float: right;
@@ -94,6 +96,24 @@
   }
 }
 /* akhir profil murid */
+
+/* scrollbar */
+/* width */
+.profile .template-advice::-webkit-scrollbar {
+  width: 10px;
+}
+.profile .template-advice::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.profile .template-advice::-webkit-scrollbar-thumb {
+  background: rgb(199, 199, 199);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.profile .template-advice::-webkit-scrollbar-thumb:hover {
+  background: #3f3f3f;
+}
+/* akhir scrollbar */
 
 /* responsive profil murid */
 @media only screen and (max-width: 500px) {

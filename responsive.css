@@ -189,13 +189,13 @@
     height: 380px;
   }
   section.detail-sekolah h4 {
-    font-size: 2.6em;
+    font-size: 2.4em;
     top: 30%;
     left: 50%;
-    transform: translate(-50%, -230%);
+    transform: translate(-50%, -220%);
   }
   section.detail-sekolah video {
-    width: 560px;
+    width: 500px;
   }
 }
 @media only screen and (max-width: 600px) {

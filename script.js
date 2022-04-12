@@ -9,9 +9,6 @@ window.setTimeout(function () {
 //   load.style.display = "none";
 // });
 
-// profile guru
-// const guru = document.getElementsByClassName("guru");
-
 // profile siswa
 const student = document.getElementsByClassName("card");
 const studentImage = document.getElementsByClassName("card-img-top");
