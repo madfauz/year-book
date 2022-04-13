@@ -288,10 +288,38 @@ section.detail-sekolah video {
 /* kegiatan */
 #kegiatan {
   background-image: url(other_image/doodles.png);
+  padding-top: 70px;
   position: relative;
   z-index: 2;
   font-family: "Caveat";
   height: auto;
+}
+#kegiatan h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px rgb(250, 205, 25);
+  color: aqua;
+  text-align: center;
+}
+#kegiatan .row {
+  margin-top: 4px;
+}
+#kegiatan .col {
+  display: grid;
+  margin-bottom: 40px;
+}
+#kegiatan img {
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+#kegiatan img:hover {
+  transform: scale(1.1);
 }
 /* akhir kegiatan */
 

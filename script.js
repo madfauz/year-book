@@ -32,14 +32,14 @@ const elementSiswaWa = document.getElementsByClassName("template-siswa-wa")[0];
 
 const selectSiswa = document.getElementById("select-siswa");
 
-let arraySiswa = [];
-for (let siswa = 0; siswa < namaSiswa.length; siswa++) {
-  arraySiswa.push(namaSiswa[siswa].innerHTML);
-  // for (let select = 0; select < selectSiswa.length; select++){
+// let arraySiswa = [];
+// for (let siswa = 0; siswa < namaSiswa.length; siswa++) {
+//   arraySiswa.push(namaSiswa[siswa].innerHTML);
+//   for (let select = 0; select < selectSiswa.length; select++){
 
-  // }
-}
-console.log(arraySiswa.sort());
+//   }
+// }
+// console.log(arraySiswa.sort());
 
 for (let person = 0; person < student.length; person++) {
   student[person].addEventListener("click", function () {
@@ -70,5 +70,33 @@ for (let person = 0; person < student.length; person++) {
     elementBirthday.innerHTML = "";
     elementAdvice.innerHTML = "";
     invisibleClose.style.display = "none";
+  });
+}
+
+// Kegiatan
+let kegiatan = document.getElementById("kegiatan");
+let koleksiKegiatan = kegiatan.getElementsByTagName("img");
+const selectKegiatan = document.getElementsByClassName("select-kegiatan")[0];
+const templateKegiatan = selectKegiatan.getElementsByTagName("img")[0];
+const closeKegiatan = document.getElementById("close-button-kegiatan");
+
+for (let i = 0; i < koleksiKegiatan.length; i++) {
+  koleksiKegiatan[i].addEventListener("click", function () {
+    selectKegiatan.style.display = "block";
+    templateKegiatan.src = koleksiKegiatan[i].src;
+    invisibleClose.style.display = "block";
+    closeKegiatan.style.display = "block";
+  });
+  closeKegiatan.addEventListener("click", function () {
+    selectKegiatan.style.display = "none";
+    invisibleClose.style.display = "none";
+    templateKegiatan.src = "";
+    closeKegiatan.style.display = "none";
+  });
+  invisibleClose.addEventListener("click", function () {
+    selectKegiatan.style.display = "none";
+    invisibleClose.style.display = "none";
+    templateKegiatan.src = "";
+    closeKegiatan.style.display = "none";
   });
 }

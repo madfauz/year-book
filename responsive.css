@@ -158,6 +158,15 @@
     font-size: 14px;
     margin-left: -8px;
   }
+  #kegiatan .col {
+    margin-bottom: 40px;
+  }
+  #kegiatan img {
+    margin: auto;
+    width: 210px;
+    height: 120px;
+    border-radius: 8px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .navbar {
@@ -361,6 +370,15 @@
     margin-bottom: 0px;
     margin-left: -6px;
   }
+  #kegiatan .col {
+    margin-bottom: 40px;
+  }
+  #kegiatan img {
+    margin: auto;
+    width: 180px;
+    height: 110px;
+    border-radius: 8px;
+  }
 }
 
 @media only screen and (max-width: 430px) {
@@ -421,6 +439,15 @@
     font-size: 12px;
     margin-bottom: 0px;
     margin-left: -8px;
+  }
+  #kegiatan .col {
+    margin-bottom: 10px;
+  }
+  #kegiatan img {
+    margin: auto;
+    width: 160px;
+    height: 100px;
+    border-radius: 8px;
   }
 }
 
@@ -486,6 +513,15 @@
     margin-bottom: -6px;
     font-size: 12px;
   }
+  #kegiatan .col {
+    margin-bottom: 40px;
+  }
+  #kegiatan img {
+    margin: auto;
+    width: 140px;
+    height: 90px;
+    border-radius: 8px;
+  }
 }
 
 @media only screen and (max-width: 330px) {
@@ -536,6 +572,15 @@
     width: 60px;
     margin-bottom: -6px;
     font-size: 10px;
+  }
+  #kegiatan .col {
+    margin-bottom: 40px;
+  }
+  #kegiatan img {
+    margin: auto;
+    width: 200px;
+    height: 140px;
+    border-radius: 8px;
   }
 }
 
