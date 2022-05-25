@@ -524,7 +524,7 @@
   }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 350px) {
   .carousel-item img {
     border-radius: 10px;
     margin: 50px auto;
@@ -573,13 +573,25 @@
     margin-bottom: -6px;
     font-size: 10px;
   }
+  #kegiatan .colu {
+    width: auto;
+    margin: 4px;
+  }
   #kegiatan .col {
     margin-bottom: 40px;
   }
   #kegiatan img {
     margin: auto;
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 8px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #kegiatan img {
+    margin: auto;
     width: 200px;
-    height: 140px;
+    height: 150px;
     border-radius: 8px;
   }
 }

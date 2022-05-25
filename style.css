@@ -288,7 +288,8 @@ section.detail-sekolah video {
 /* kegiatan */
 #kegiatan {
   background-image: url(other_image/doodles.png);
-  padding-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   position: relative;
   z-index: 2;
   font-family: "Caveat";
@@ -301,12 +302,15 @@ section.detail-sekolah video {
   color: aqua;
   text-align: center;
 }
-#kegiatan .row {
+#kegiatan .rowu {
   margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-#kegiatan .col {
-  display: grid;
-  margin-bottom: 40px;
+#kegiatan .colu {
+  width: auto;
+  margin: 10px;
 }
 #kegiatan img {
   cursor: pointer;

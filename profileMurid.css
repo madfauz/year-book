@@ -16,8 +16,8 @@
   width: 400px;
   height: auto;
   background-color: white;
-  border: 5px solid rgb(247, 160, 28);
   box-shadow: 0 0 10px rgb(164, 164, 164);
+  border: 5px solid rgb(247, 160, 28);
   border-radius: 8px;
   position: fixed;
   z-index: 5;
@@ -29,6 +29,12 @@
   animation-name: flip;
   animation-duration: 0.5s;
   padding: 20px;
+}
+.profile::after {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  background-image: linear-gradient(45deg, rgb(247, 160, 28), rgb(135, 233, 246));
 }
 .profile .image-student {
   width: 250px;
