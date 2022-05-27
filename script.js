@@ -4,10 +4,40 @@ const load = document.getElementById("preload");
 window.setTimeout(function () {
   load.style.display = "none";
   profilSekolah.style.display = "block";
-}, 500);
+}, 3000);
 // window.addEventListener("load", function () {
 //   load.style.display = "none";
 // });
+
+//close-link
+const navButton = document.querySelector(".navbar-toggler");
+const closeLink = document.getElementsByClassName("close-link");
+const body = document.body;
+const navCloseLink = document.querySelector(".nav-close-link");
+const offCanvas = document.querySelector(".offcanvas");
+const subCon = document.querySelector("#sub-con");
+
+navButton.addEventListener("click", function () {
+  const offCanvasBackdrop = document.querySelector(".offcanvas-backdrop");
+  subCon.lastElementChild.style.display = "block";
+});
+for (const link of closeLink) {
+  link.addEventListener("click", function () {
+    const offCanvasBackdrop = document.querySelector(".offcanvas-backdrop");
+    navCloseLink.style.paddingRight = "";
+    offCanvas.style.visibility = "hidden";
+    offCanvas.classList.remove("show");
+    offCanvas.removeAttribute("aria-modal", "true");
+    offCanvas.removeAttribute("role", "dialog");
+    offCanvas.setAttribute("aria-hidden", "true");
+    body.style.overflow = "";
+    body.style.paddingRight = "";
+    subCon.lastElementChild.remove();
+    setTimeout(function () {
+      navButton.click();
+    }, 700);
+  });
+}
 
 // profile siswa
 const student = document.getElementsByClassName("card");

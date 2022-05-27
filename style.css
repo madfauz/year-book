@@ -236,6 +236,9 @@ section.detail-sekolah video {
   color: rgb(19, 255, 223);
   font-family: "Caveat";
 }
+#murid .sub-name {
+  display: none;
+}
 #murid .card {
   border: none;
   position: relative;

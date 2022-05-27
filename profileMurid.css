@@ -47,13 +47,13 @@
   margin-top: 4px;
   font-family: "Mali";
   font-weight: 600;
-  font-size: 34px;
+  font-size: 120%;
   text-align: center;
 }
 .profile h5 {
   color: black;
   font-family: "Mali";
-  font-size: 18px;
+  font-size: 100%;
   font-weight: 400;
   margin-top: -10px;
   text-align: center;
@@ -61,9 +61,9 @@
 .profile .template-birthday {
   color: black;
   font-family: "Mali";
-  font-size: 16px;
+  font-size: 90%;
   font-weight: 300;
-  margin-top: -10px;
+  margin-top: -6px;
   text-align: center;
   padding-bottom: 10px;
   border-bottom: 1px dotted black;
@@ -71,7 +71,7 @@
 .profile .template-advice {
   color: black;
   font-family: "Mali";
-  font-size: 20px;
+  font-size: 90%;
   margin-top: 4px;
   font-weight: 400;
   max-height: 80px;
