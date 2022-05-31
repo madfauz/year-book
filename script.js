@@ -4,7 +4,7 @@ const load = document.getElementById("preload");
 window.setTimeout(function () {
   load.style.display = "none";
   profilSekolah.style.display = "block";
-}, 5000);
+}, 500);
 // window.addEventListener("load", function () {
 //   load.style.display = "none";
 // });
@@ -32,10 +32,11 @@ for (const link of closeLink) {
     offCanvas.setAttribute("aria-hidden", "true");
     body.style.overflow = "";
     body.style.paddingRight = "";
-    subCon.lastElementChild.remove();
+    subCon.removeChild(subCon.children[3]);
+    // subCon.lastElementChild.remove();
     setTimeout(function () {
       navButton.click();
-    }, 700);
+    }, 500);
   });
 }
 
