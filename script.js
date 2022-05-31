@@ -4,7 +4,7 @@ const load = document.getElementById("preload");
 window.setTimeout(function () {
   load.style.display = "none";
   profilSekolah.style.display = "block";
-}, 3000);
+}, 5000);
 // window.addEventListener("load", function () {
 //   load.style.display = "none";
 // });
