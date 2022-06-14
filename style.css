@@ -130,7 +130,7 @@ section.detail-sekolah h4 {
   left: 50%;
   transform: translate(-50%, -280%);
   font-family: "Caveat";
-  text-shadow: 2px 2px 2px rgb(190, 47, 143);
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
   color: aqua;
 }
 section.detail-sekolah video {
@@ -139,13 +139,15 @@ section.detail-sekolah video {
   width: 920px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -44%);
+  transform: translate(-50%, -50%);
   border-radius: 8px;
 }
 .image-scroll {
   height: 1200px;
-  background-image: url(other_image/doodles2.png);
+  background-image: url(other_image/paralax.jpg);
   position: fixed;
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   width: 100%;
   z-index: 1;
@@ -174,6 +176,9 @@ section.detail-sekolah video {
 #guru img {
   clip-path: circle();
   width: 256px;
+}
+#guru h5 {
+  color: rgb(161, 161, 161);
 }
 
 /* akhir guru */
@@ -224,6 +229,14 @@ section.detail-sekolah video {
   position: relative;
   z-index: 2;
   height: auto;
+}
+#murid .gradient {
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  position: absolute;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgb(82, 82, 82));
+  transition: 0.3s;
 }
 #murid .title-murid {
   font-weight: 700;
@@ -283,6 +296,7 @@ section.detail-sekolah video {
   display: none;
   width: 10px;
 }
+
 #murid .card:hover img {
   transform: scale(1.2);
 }

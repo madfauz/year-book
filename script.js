@@ -33,7 +33,6 @@ for (const link of closeLink) {
     body.style.overflow = "";
     body.style.paddingRight = "";
     subCon.removeChild(subCon.children[3]);
-    // subCon.lastElementChild.remove();
     setTimeout(function () {
       navButton.click();
     }, 500);
@@ -60,6 +59,10 @@ const elementBirthday = document.getElementsByClassName("template-birthday")[0];
 const elementAdvice = document.getElementsByClassName("template-advice")[0];
 const elementSiswaIg = document.getElementsByClassName("template-siswa-ig")[0];
 const elementSiswaWa = document.getElementsByClassName("template-siswa-wa")[0];
+const logoSosmed1 = document.getElementsByClassName("sosmed-siswa-1");
+const logoSosmed2 = document.getElementsByClassName("sosmed-siswa-2");
+const templatelogoSosmed1 = document.querySelector(".template-sosmed-siswa-1");
+const templatelogoSosmed2 = document.querySelector(".template-sosmed-siswa-2");
 
 const selectSiswa = document.getElementById("select-siswa");
 
@@ -71,6 +74,14 @@ const selectSiswa = document.getElementById("select-siswa");
 //   }
 // }
 // console.log(arraySiswa.sort());
+function closeSidebar() {
+  profile.style.display = "none";
+  elementStudentImage.src = "";
+  elementNamaSiswa.innerHTML = "";
+  elementBirthday.innerHTML = "";
+  elementAdvice.innerHTML = "";
+  invisibleClose.style.display = "none";
+}
 
 for (let person = 0; person < student.length; person++) {
   student[person].addEventListener("click", function () {
@@ -79,6 +90,8 @@ for (let person = 0; person < student.length; person++) {
     elementMotoStudent.innerHTML = motoStudent[person].innerHTML;
     elementBirthday.innerHTML = birthday[person].innerHTML;
     elementAdvice.innerHTML = advice[person].innerHTML;
+    templatelogoSosmed1.src = logoSosmed1[person].src;
+    templatelogoSosmed2.src = logoSosmed2[person].src;
     elementSiswaIg.href = siswaIg[person].href;
     elementSiswaWa.href = siswaWa[person].href;
     profile.style.display = "block";
@@ -86,21 +99,11 @@ for (let person = 0; person < student.length; person++) {
   });
 
   closeButton.addEventListener("click", function () {
-    profile.style.display = "none";
-    elementStudentImage.src = "";
-    elementNamaSiswa.innerHTML = "";
-    elementBirthday.innerHTML = "";
-    elementAdvice.innerHTML = "";
-    invisibleClose.style.display = "none";
+    closeSidebar();
   });
 
   invisibleClose.addEventListener("click", function () {
-    profile.style.display = "none";
-    elementStudentImage.src = "";
-    elementNamaSiswa.innerHTML = "";
-    elementBirthday.innerHTML = "";
-    elementAdvice.innerHTML = "";
-    invisibleClose.style.display = "none";
+    closeSidebar();
   });
 }
 
@@ -109,25 +112,25 @@ let kegiatan = document.getElementById("kegiatan");
 let koleksiKegiatan = kegiatan.getElementsByTagName("img");
 const selectKegiatan = document.getElementsByClassName("select-kegiatan")[0];
 const templateKegiatan = selectKegiatan.getElementsByTagName("img")[0];
-const closeKegiatan = document.getElementById("close-button-kegiatan");
+const closeButtonKegiatan = document.getElementById("close-button-kegiatan");
 
 for (let i = 0; i < koleksiKegiatan.length; i++) {
+  function closeKegiatan() {
+    selectKegiatan.style.display = "none";
+    invisibleClose.style.display = "none";
+    templateKegiatan.src = "";
+    closeButtonKegiatan.style.display = "none";
+  }
   koleksiKegiatan[i].addEventListener("click", function () {
     selectKegiatan.style.display = "block";
     templateKegiatan.src = koleksiKegiatan[i].src;
     invisibleClose.style.display = "block";
-    closeKegiatan.style.display = "block";
+    closeButtonKegiatan.style.display = "block";
   });
-  closeKegiatan.addEventListener("click", function () {
-    selectKegiatan.style.display = "none";
-    invisibleClose.style.display = "none";
-    templateKegiatan.src = "";
-    closeKegiatan.style.display = "none";
+  closeButtonKegiatan.addEventListener("click", function () {
+    closeKegiatan();
   });
   invisibleClose.addEventListener("click", function () {
-    selectKegiatan.style.display = "none";
-    invisibleClose.style.display = "none";
-    templateKegiatan.src = "";
-    closeKegiatan.style.display = "none";
+    closeKegiatan();
   });
 }
