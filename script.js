@@ -21,6 +21,7 @@ navButton.addEventListener("click", function () {
   const offCanvasBackdrop = document.querySelector(".offcanvas-backdrop");
   subCon.lastElementChild.style.display = "block";
 });
+
 for (const link of closeLink) {
   link.addEventListener("click", function () {
     const offCanvasBackdrop = document.querySelector(".offcanvas-backdrop");
