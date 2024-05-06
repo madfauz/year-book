@@ -20,6 +20,8 @@ const subCon = document.querySelector("#sub-con");
 navButton.addEventListener("click", function () {
   const offCanvasBackdrop = document.querySelector(".offcanvas-backdrop");
   subCon.lastElementChild.style.display = "block";
+  offCanvas.classList.add("show");
+  offCanvas.style.visibility = "visible";
 });
 
 for (const link of closeLink) {
